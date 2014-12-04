@@ -1,25 +1,18 @@
 {
     "locales" : [
         {
-            "smartling"   : "zh-CN",
-            "application" : "zh-Hans"
+            "smartling"   : "fr-FR",
+            "application" : "fr-FR"
         },
         {
-            "smartling"   : "zh-TW",
-            "application" : "zh-Hant"
+            "smartling"   : "de-DE",
+            "application" : "de-DE"
         }
     ],
     "resourcesSets": [
         {
-            "pathRegex"                 : "/web/messages/(?!(en|zh)).*\\.properties",
+            "pathRegex"                 : "/VCSTest/navigation.properties",
             "type"                      : "javaProperties"
         },
-        {
-            "pathRegex"                 : "/web/messages/en/(?<path>.*)\\.properties",
-            "translationPathExpression" : "/web/messages/zh/${path}_${locale}.${originalFile.extension}",
-            "translationCommitMessage"  : "Task TRN-18 translate ${originalFile.name} to ${locale}\n${translatedFile.fullName}",
-            "type"                      : "javaProperties",
-            "authorizeContent"          : true
-        }
     ]
 }
