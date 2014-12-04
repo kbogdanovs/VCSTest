@@ -13,6 +13,6 @@
         {
             "pathRegex"                 : "\\.properties",
             "type"                      : "javaProperties"
-        },
+        }
     ]
 }
