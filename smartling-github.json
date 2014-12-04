@@ -1,0 +1,25 @@
+{
+    "locales" : [
+        {
+            "smartling"   : "zh-CN",
+            "application" : "zh-Hans"
+        },
+        {
+            "smartling"   : "zh-TW",
+            "application" : "zh-Hant"
+        }
+    ],
+    "resourcesSets": [
+        {
+            "pathRegex"                 : "/web/messages/(?!(en|zh)).*\\.properties",
+            "type"                      : "javaProperties"
+        },
+        {
+            "pathRegex"                 : "/web/messages/en/(?<path>.*)\\.properties",
+            "translationPathExpression" : "/web/messages/zh/${path}_${locale}.${originalFile.extension}",
+            "translationCommitMessage"  : "Task TRN-18 translate ${originalFile.name} to ${locale}\n${translatedFile.fullName}",
+            "type"                      : "javaProperties",
+            "authorizeContent"          : true
+        }
+    ]
+}
