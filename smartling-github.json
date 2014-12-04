@@ -11,7 +11,7 @@
     ],
     "resourceSets": [
         {
-            "pathRegex"                 : "navigation\\.properties",
+            "pathRegex"                 : "\\.properties",
             "type"                      : "javaProperties"
         },
     ]
