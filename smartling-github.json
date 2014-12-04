@@ -11,7 +11,7 @@
     ],
     "resourcesSets": [
         {
-            "pathRegex"                 : "/VCSTest/navigation.properties",
+            "pathRegex"                 : "navigation.properties",
             "type"                      : "javaProperties"
         },
     ]
