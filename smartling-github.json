@@ -9,7 +9,7 @@
             "application" : "de-DE"
         }
     ],
-    "resourceSets": [
+    "resourcesSets": [
         {
             "pathRegex"                 : "\\.properties",
             "type"                      : "javaProperties"
