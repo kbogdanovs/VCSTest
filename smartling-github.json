@@ -12,7 +12,7 @@
     "resourcesSets": [
         {
             "pathRegex"                 : "navigation\\.properties",
-            "type"                      : "javaProperties"
+            "type"                      : "javaProperties",
             "translationPathexpression" : "translations/${path}_${locale}_{originalFile.name}"
         }
     ]
