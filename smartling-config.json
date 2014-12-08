@@ -13,7 +13,7 @@
         {
             "pathRegex"                 : "navigation\\.properties",
             "type"                      : "javaProperties",
-            "translationPathExpression" : "translations/${path}_${locale}_${originalFile.baseName}.${originalFile.extension}"
+            "translationPathExpression" : "translations/${locale}_${originalFile.baseName}.${originalFile.extension}"
         }
     ]
 }
